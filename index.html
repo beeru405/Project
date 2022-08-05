@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Beeranna Dude</title>
-</head>
-
 <body>
-Everything you want displayed on your page.
+
+<h2>Demo JavaScript in Body</h2>
+
+<p id="demo">A Paragraph</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+
 </body>
-  </html>
+</html>
+
